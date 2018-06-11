@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Layouts from '@/components/layouts'
 
-Vue.use(Router)
+Vue.use(Router)// 全局注册Router组件
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Layouts',
+      component: Layouts
     }
   ]
 })
