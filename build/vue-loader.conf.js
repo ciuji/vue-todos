@@ -19,16 +19,5 @@ module.exports = {
     img: 'src',
     image: 'xlink:href'
   }
-  module: {
-    rules: [
-      {
-        test: /\.less$/,
-        use: [
-          "style-loader",
-          { loader: "css-loader", options: { importLoader: 1 } },
-          "less-loader"
-        ]
-      }
-    ]
-  }
+
 }
